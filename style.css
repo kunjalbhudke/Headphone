@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.div1 img {
+    height: 800px;
+    width: 100%;
+}
+
+.div2 {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+}
+
+.div2>* {
+    padding: 10px;
+}
+
+.div2 h3 {
+    font-size: 18px;
+text-transform: uppercase;
+
+}
+
+.div2 h1 {
+    font-size: 43px;
+
+}
+
+.div2 button {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.div3 {
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.div3 :first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.div4 {
+    margin-top: 70px;
+    background-color: rgb(255, 191, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.div5 {
+    margin-top: 70px;
+}
+
+#id1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 300px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.img-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img1 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 13px;
+    background-color: rgb(246, 175, 68);
+}
+
+.des {
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+
+}
+
+.des h4 {
+    color: black;
+    padding-top: 10px;
+}
+
+.des button {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 179, 39);
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.div6 {
+    margin-top: 70px;
+}
+
+.div6 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div6 .img2 img {
+    width: 20%;
+    padding: 10px;
+}
+#fire{
+    color:rgb(255, 208, 0);
+    font-size: 28px;
+}
+.div7 {
+    margin-top: 70px;
+    background-color: rgb(255, 184, 62);
+    padding: 20px;
+    position: relative;
+}
+
+.div8 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 200px;
+}
+
+.div8 :nth-child(2) {
+    font-size: 30px;
+}
+
+.div7 button {
+    color: blue;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.div9 {
+    margin-top: 70px;
+    position: relative;
+
+}
+
+#id3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.div10 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.diva {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(254, 141, 100, 0.852);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.diva p {
+    position: absolute;
+    color: black;
+    font-size: 14px;
+}
